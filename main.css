@@ -1,0 +1,56 @@
+.bio{
+    border: 1px solid;
+    width: ;
+}
+
+.bio__fish{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .fish{
+     flex-basis: 16%;
+     border: 1px solid black;
+     margin: 0.5em;
+     text-align: center;
+ }
+ .bio__quote{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .quote{
+     flex-basis: 16%;
+     border: 1px solid black;
+     margin: 0.5em;
+     text-align: center;
+ }
+ .bio__location{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .location{
+     flex-basis: 16%;
+     border: 1px solid black;
+     margin: 0.5em;
+     text-align: center;
+ }
+
+ .fish_image{
+     width: 300px;
+     height: 200px;
+     border-radius: 30%;
+
+     /* display: flex; */
+     /* flex-wrap: wrap; */
+     /* justify-content: space-evenly; */
+     }
+
+ .bio h1{
+     text-align: center;
+ }
+
+.content{
+    /* display: flex; */
+ }
