@@ -1,56 +1,75 @@
-.bio{
-    border: 1px solid;
-    width: ;
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-basis: 35%;
+    border: 1px dotted black;
+    max-width: 100%;
+    padding: 10px;
 }
-
-.bio__fish{
+.container-fish {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+ .fish {
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+    max-width: 31%;
+ }
+ .container-quote {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
  }
- .fish{
+ .quote {
      flex-basis: 16%;
      border: 1px solid black;
      margin: 0.5em;
      text-align: center;
+     max-width: 100%;
  }
- .bio__quote{
+ .container-location {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
  }
- .quote{
-     flex-basis: 16%;
+ .location {
+     flex-basis: 15%;
      border: 1px solid black;
      margin: 0.5em;
      text-align: center;
  }
- .bio__location{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
- }
- .location{
-     flex-basis: 16%;
-     border: 1px solid black;
-     margin: 0.5em;
-     text-align: center;
- }
-
- .fish_image{
-     width: 300px;
+ .fish_image {
+     width: 280px;
      height: 200px;
      border-radius: 30%;
-
-     /* display: flex; */
-     /* flex-wrap: wrap; */
-     /* justify-content: space-evenly; */
+     max-width: 100%;
      }
-
- .bio h1{
-     text-align: center;
- }
-
-.content{
-    /* display: flex; */
- }
+.content {
+    max-width: 66.6%;
+}
+ .page {
+    background-image: linear-gradient(lightblue, darkseagreen);
+}
+.head h1 {
+    text-align: center;
+}
+.container-tip {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    /* border: 1px dotted black; */
+}
+.tip {
+    max-width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    border: 1px dotted black;
+}
+.flex {
+    display: flex;
+}
